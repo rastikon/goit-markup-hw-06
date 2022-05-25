@@ -1131,7 +1131,8 @@ img {
       border-color: var(--accent-color);
   }
 
-  .check-input:hover ~ .checkbox-unchecked {
+  .check-input:hover ~ .checkbox-unchecked,
+  .check-input:focus ~ .checkbox-unchecked {
     border-color: var(--accent-color);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
